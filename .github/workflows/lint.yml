@@ -3,7 +3,8 @@ name: Lint pricelist
 on: 
   pull_request: 
     branches:
-      - development      
+      - development
+      - main
 env: 
   NODE_VERSION: 18
 jobs: 
