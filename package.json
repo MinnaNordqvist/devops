@@ -1,13 +1,21 @@
 {
-    "name":"code",
+    "name": "code",
     "version": "1.0.0",
     "description": "",
-    "type":"module",
-    "main":"price-list.js",
+    "type": "module",
+    "main": "price-list.js",
     "scripts": {
-      "test": "echo Error"
-   },
-   "keywords": [],
-   "author": "",
-   "license": "ISC"
+        "test": "echo Error",
+        "lint:js": "eslint src/**/*.js",
+        "lint": "npm run lint:js"
+        
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^8.57.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.29.1"
+    }
 }
