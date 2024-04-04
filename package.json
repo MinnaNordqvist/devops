@@ -6,7 +6,7 @@
     "main": "price-list.js",
     "scripts": {
         "test": "echo Error",
-        "lint:js": "eslint src/**/*.js",
+        "lint:js": "eslint ./price-list.js",
         "lint": "npm run lint:js"
         
     },
