@@ -1,0 +1,16 @@
+{
+    "name":"code",
+    "version": "1.0.0",
+    "description": "",
+    "type":"module",
+    "exports": {
+      "require": "./code/common_price.cjs"
+    },
+    "main":"price-list.js",
+    "scripts": {
+      "test": "echo Error"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC"
+}
